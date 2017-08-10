@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Is Skim Milk Healthier than Full Cream?"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/foodie8"
+            android:scaleType="centerCrop"
+            android:background="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Low-Fat Foods Do Not Lower Kilojoule Consumption"
+            android:paddingLeft="16dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="16dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Low-fat versions are supposed to reduce the amount of kilojoules that people eat, and in an absolute sense, they do. A cup of low-fat milk contains fewer kilojoules than a cup of whole milk. But Ludwig and Willett note that there isn’t much evidence to support the idea that drinking lower-kilojoule beverages in general leads to lower-kilojoule intake. Reduced-fat foods and drinks may not be as filling, so people may end up compensating for the lack of kilojoules and eating or drinking more."
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="10dp"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Low-Fat Milk Increases Levels Of Triglyceride Fats"
+            android:paddingLeft="16dp"
+            android:paddingTop="5dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="5dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Whole milk's high saturated-fat content has been linked to higher cholesterol. But low-fat milk may lead drinkers to consume more high-glycaemic-index foods, which can increase the level of triglycerides that can amplify the effect of heart-disease risk factors such as high cholesterol and hypertension."
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="10dp"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Rise Of Sugar-Sweetened Flavoured Milk"
+            android:paddingLeft="16dp"
+            android:paddingTop="5dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="5dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="10dp"
+            android:text="Flavoured milk may have 3g less saturated fat, they also contain about 13g more sugar than whole milk per cup.\n\nLudwig and Willett aren’t out to tank the dairy industry, but are simply hoping to draw attention to the need to reconsider milk recommendations – this time based on the scientific evidence. They say the data supports a recommendation for drinking up to three cups a day, but doesn’t support the advice that it has to be low-fat or skim milk."
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>

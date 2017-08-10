@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context="com.example.holy.foodie.Foodie">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Foodie"
+        android:textAlignment="center"
+        android:fontFamily="cursive"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="100sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/foodie1"
+        android:scaleType="centerCrop"
+        android:background="#000000"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Healthy Recipe"
+        android:id="@+id/healthy_recipe"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif"
+        android:background="@color/colorPrimary"
+        android:padding="5dp"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/foodie2"
+            android:scaleType="centerCrop"
+            android:padding="5dp"
+            android:background="#000000"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/foodie3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="192.5dp"
+            android:layout_height="wrap_content"
+            android:text="Don't Eat These!"
+            android:id="@+id/dont_eat_these"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:background="#000000"
+            android:padding="5dp"
+            android:textColor="@color/colorAccent"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="192.5dp"
+            android:text="Eat These!"
+            android:id="@+id/eat_these"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:background="@color/colorAccent"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/foodie4" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/foodie5"
+            android:scaleType="centerCrop"
+            android:padding="5dp"
+            android:background="#000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="192.5dp"
+            android:text="Full Fat vs Skim Milk?"
+            android:id="@+id/full_fat_skim_milk"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:background="@color/colorAccent"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+
+        <Button
+            android:layout_width="192.5dp"
+            android:layout_height="wrap_content"
+            android:text="Tea vs Coffee?"
+            android:id="@+id/tea_coffee"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:background="#000000"
+            android:padding="5dp"
+            android:textColor="@color/colorAccent"/>
+
+    </LinearLayout>
+
+</LinearLayout>

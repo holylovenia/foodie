@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coffee vs. Tea: Which One Is Better For You?"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/foodie9"
+            android:scaleType="centerCrop"
+            android:background="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Origins"
+            android:paddingLeft="16dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="16dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="While tea is the most widely consumed beverage in the world next to water (and right before beer), coffee is also hugely popular. And both drinks have been around for a long time, to boot.\n\nAccording to legend, tea was first discovered by the Emperor of China in 2737 BC while he was boiling water under a tree. When leaves accidentally fell into the boiling water, he tasted it and was surprised by its goodness. Tea then became popular among scholars and priests in China and Japan, who drank tea to stay awake, study, and meditate. This is perhaps why the hot drink has always been associated with mindfulness, calm, spirituality, and solid health.\n\nCoffee, meanwhile, didn’t seem to appear until much later — and is believed to have originated in the Ethiopian highlands, where legend says a goatherd named Kaldi noticed his goats became hyperactive after eating certain berries from a tree. Coffee then spread to monks at monasteries, where they drank the beverage to keep them alert while praying. From there, it began making its way across the Arabian Peninsula. Both coffee and tea remained Eastern beverages for a long time; coffee didn’t even arrive in Europe until the 17th century."
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="10dp"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benefits"
+            android:paddingLeft="16dp"
+            android:paddingTop="5dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Both coffee and tea have their benefits, though it’s always hard to pinpoint exactly what those are due to the large amount of contradictory studies. Researchers have focused on specific potential benefits of coffee, with some studies finding that coffee might have the ability to reduce the incidence of dementia or Alzheimer’s or even type 2 diabetes, for example. Coffee has a higher caffeine content than tea, meaning its levels of the stimulant might help people with asthma by relaxing the lung's airways. Caffeine also helps in constricting blood vessels in the brain and reducing migraines, and often alleviates hangovers because of this. So if you’ve got a bad headache, taking some Advil with coffee and food (and water) might help you out.\n\nHarvard School of Public Health analyzed coffee’s overall effect on health and concluded that the beverage was pretty neutral — it didn’t cause any serious health problems, but it also didn’t necessarily have any specific health benefits, either. Even drinking up to 6 cups of coffee didn’t appear to raise anyone’s risk of dying — but it also didn’t seem to make anyone live particularly longer. What this means, essentially, is that if you’re a stalwart coffee lover, you really have nothing to worry about.\n\nTea, on the other hand, is filled with antioxidants and potential cancer-fighting properties. According to the National Cancer Institute at the NIH, tea contains polyphenol compounds, which are antioxidants that might aid in cancer prevention. Though not enough has been studied to conclude whether tea does in fact reduce the risk of cancer, tea has often been considered a therapeutic or medicinal drink that has both soothing and rejuvenating qualities. All types of tea are made from the leaves of the plant Camellia sinensis, which wilt and oxidize after harvesting; oxidation results in the breaking down of chemicals. The amount of oxidation that occurs in the leaves is what defines different types of teas, from black tea to white tea, and of course green tea. Polyphenols in particular are a group of plant chemicals that are believed to be involved in health benefits — especially in green tea. Teas with the highest levels of polyphenols are usually brewed hot teas rather than cold (and sugary) bottled teas. Polyphenols in green tea, and theaflavins and thearubigins in black tea, contain free radicals that might protect cells from DNA damage."
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="10dp"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cons"
+            android:paddingLeft="16dp"
+            android:paddingTop="5dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="10dp"
+            android:text="As with anything that contains caffeine, way too much coffee and tea could result in increased anxiety, tachycardia, heart palpitations, insomnia, restlessness, and nausea. High amounts of unfiltered coffee, meanwhile, has been linked to higher levels of bad cholesterol, LDL. Tea contains fluoride, and while this is good for your dental health, too much of it may increase your risk of brittle bones and osteofluorosis. Certain tea blends from China, India, or Sri Lanka have been found to contain aluminum and risky amounts of lead, so where you get your tea is pretty important.\n\nTo be completely honest, however, you’re better off leaving the heavy cream and three packs of sugar out of your drinks — and stop worrying about whether coffee trumps tea or vice versa. Both drinks have vague cons and benefits, but are, for the most part, pretty decent for you. Too much sugar, on the other hand, is quite the villain — so enjoy your caffeine and remember to take your coffee breaks or meditative tea breaks every so often; humans have been doing it for thousands of years."
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>

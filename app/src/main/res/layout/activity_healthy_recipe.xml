@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Beef &amp; Guiness Stew"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/foodie6"
+            android:scaleType="centerCrop"
+            android:background="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients"
+            android:paddingLeft="16dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="16dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="450 g pearl barley\nolive oil\n100 g baby silverskin pickled onions\n1 large onion\n3 large carrots\n1 celery heart\n½ a bunch of fresh thyme , (15g)\n800 g swede\n20 g dried porcini mushrooms\n500 g beef skirt steak\n1 litre organic beef or chicken stock\n½ x 440 ml can of Guinness\n500 g fresh seasonal greens , such as kale, cabbage, chard\n20 g Cheddar cheese\n4 heaped teaspoons English mustard"
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="10dp"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Method"
+            android:paddingLeft="16dp"
+            android:paddingTop="5dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Preheat the oven to 180°C/350°F/gas 4.\n\nIn a large pan, cover the pearl barley with plenty of cold water and leave to soak.\n\nPut a large casserole pan on a medium-high heat with 1 tablespoon of oil and the whole pickled onions. Peel and quarter the regular onion, then pull the quarters apart into petals and add to the pan.\n\nStir regularly while you wash and trim the carrots and celery and slice both ½cm thick at an angle. Stir them into the pan, then strip in the thyme leaves.\n\nCook and stir for 10 minutes, while you peel the swede and chop it into 3cm chunks, and finely chop the dried porcini. Stir both into the pan, then slice the beef 3cm thick and add that, too.\n\nAfter a couple of minutes, pour in the stock and Guinness. Bring up to a simmer, cover with a scrunched sheet of wet greaseproof paper, and cook in the oven for 1 hour.\n\nRemove the paper, then cook the stew for another hour, or until the meat is tender.\n\nDrain the pearl barley and re-cover with boiling water, then cook according to the packet instructions.\n\nPick through your greens, discarding any tough stalks, and steam in a colander or sieve above the pearl barley for the last 10 minutes.\n\nReserving a little cooking water, drain the pearl barley and return it to the pan, grate over the cheese, add the English mustard and a splash of the reserved water, and mix together.\n\nTaste the stew and season to perfection, then serve up with the mustard pearl barley and the freshly steamed greens on the side."
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="10dp"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

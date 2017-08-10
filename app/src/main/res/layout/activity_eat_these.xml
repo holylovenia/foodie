@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eat These!"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="40sp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/foodie7"
+            android:scaleType="centerCrop"
+            android:background="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Green Beans"
+            android:paddingLeft="16dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="16dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Filling up on green beans, and other high-fiber foods, can help you prevent weight gain or even promote weight loss—without dieting—suggests new research in The Journal of Nutrition. Researchers found that women who increased their fiber intake generally lost weight while women who decreased the fiber in their diets gained. The scientists boiled the findings into a single weight-loss formula: boosting fiber by 8 grams for every 1,000 calories consumed resulted in losing about 4 1/2 pounds over the course of the study. Try it for yourself. If you’re consuming 2,000 calories per day, aim to increase your fiber by 16 grams. Raspberries, chickpeas and strawberries can also help you get your fill."
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="10dp"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Salmon"
+            android:paddingLeft="16dp"
+            android:paddingTop="5dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The omega-3 fatty acids in oily fish—such as salmon and tuna—can boost your skin’s defenses against UV damage. In a study published earlier this year in the American Journal of Clinical Nutrition, researchers found that those who ate a little more than 5 ounces of omega-3-rich fish each week decreased the development of precancerous skin lesions by almost 30 percent. Scientists think the omega-3s act as a shield, protecting cell walls from free-radical damage."
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="10dp"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Blueberries"
+            android:paddingLeft="16dp"
+            android:paddingTop="5dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="10dp"
+            android:text="Eating just under a cup of mixed berries (such as red raspberries, strawberries, blueberries) daily for 8 weeks was associated with increased levels of “good” HDL cholesterol and lowered blood pressure—two positives when it comes to heart health—according to a recent study in the American Journal of Clinical Nutrition. The diverse range of polyphenols—health-promoting plant compounds that include anthocyanins and ellagic acid—provided by the mix of berries is likely responsible for the observed benefits."
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>

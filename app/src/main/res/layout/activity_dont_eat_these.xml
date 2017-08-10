@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Don't Eat These!"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="40sp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/foodie2"
+            android:scaleType="centerCrop"
+            android:background="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. White Bread"
+            android:paddingLeft="16dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="16dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="White bread is a staple in most pantries, but the truth is that it doesn’t have any nutritional value. White bread contains a lot of sugar and it doesn’t have the ability to keep you satisfied, so within a few hours you are likely to find yourself feeling hungry and reaching for snacks.\n\nAs a result of these factors, it is unsurprising that research on those who eat white bread shows a correlation between eating larger quantities of white bread and being more likely to gain unwanted weight over a period of 12 years. As it turns out, even breads that claim to be wheat could contain more sugar than grain and should often be avoided.\n\nIdeally, you should replace your white bread with whole grain or whole wheat bread whenever possible, as whole wheat bread is positively good for your health."
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="10dp"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Fried Foods"
+            android:paddingLeft="16dp"
+            android:paddingTop="5dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="It is common knowledge that fried foods are not healthy and should be avoided whenever it is feasible.\n\nIn addition to causing you to pile on the pounds, these foods are of little nutritional value and can cause some serious health problems.\n\nThey are associated with higher cholesterol and higher blood pressure, both of which decrease your cardiovascular health and make you more likely to suffer from heart disease or strokes.\n\nFried foods can also upset the digestive system, leading to uncomfortable acid reflux, and potentially exacerbating the cramps or gas pains associated with irritable bowel syndrome.\n\nUnfortunately, many people exclusively associate fried foods with the French fries, chicken nuggets, onion rings and burgers that you can buy at fast food restaurants.\n\nThese people remain unaware that they may also be consuming unhealthy fried foods at home.\n\nIf you want to improve your health, you should never fry your meals in a pan on the stove or in a deep fat fryer. Instead, consider baking or broiling."
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="10dp"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Cream-based Salad Dressings"
+            android:paddingLeft="16dp"
+            android:paddingTop="5dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="10dp"
+            android:text="Salads have a reputation for being healthy, so many people turn to them when they are dieting and trying to eat more nutritious foods.\n\nThis is an excellent idea in many cases, as salads can be very nutritious and are often low in calories.\n\nHowever, it is important to avoid making an unqualified claim that all salads are healthy; in reality, they can become quite bad for you when they are drenched in cream-based dressings.\n\nAlthough these types of dressings add a lot of extra flavor to salads and can make a meal more enjoyable, it is crucial to remember that they contain a lot of fat and calories. In fact, there can be end up being be more calories in your salad dressing than in the rest of your entire salad, completely undermining your attempts to shed excess weight.\n\nAs an alternative, why not experiment with oil-based salad dressings? In addition to tasting lighter, they have fewer calories and are much better for you. With the addition of a little salt and pepper (or some tasty herbs like oregano), an oil-based dressing can turn a salad into a great meal. You can also buy flavored oils that you can use as a basis for a salad dressing; some of these oils are infused with strong and pleasant tastes like garlic, lemon or pepper."
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>
